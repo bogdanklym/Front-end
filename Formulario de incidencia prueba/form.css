@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #eef2f7;
+}
+
+/* TÍTULOS */
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+/* FORMULARIO */
+form {
+    background: white;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* BOTÓN FORM */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #2d89ef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #1b6fd6;
+}
+
+/* CONTADOR */
+#contenedor {
+    max-width: 420px;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#contenedor p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+/* TABLA */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #2d89ef;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* HOVER FILAS */
+tr:hover {
+    background: #f1f5ff;
+}
+
+/* ESTADOS */
+.estado {
+    font-weight: bold;
+}
+
+.estado-pendiente {
+    color: orange;
+}
+
+.estado-entregado {
+    color: green;
+}
+
+.estado-no {
+    color: red;
+}
+
+/* BOTONES ACCIÓN */
+td button {
+    width: auto;
+    padding: 5px 8px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+/* eliminar */
+td button:last-child {
+    background: #dc3545;
+}
+
+td button:last-child:hover {
+    background: #b02a37;
+}
