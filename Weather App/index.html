@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App del Tiempo Avanzada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>App del Tiempo</h1>
+        <div class="search">
+            <div class="input-group">
+                <input type="text" id="city-input" placeholder="Buscar ciudad...">
+                <button id="search-btn">Buscar</button>
+            </div>
+            <button id="location-btn">Usar mi ubicación</button>
+        </div>
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Cargando clima...</p>
+        </div>
+        <div id="weather-info">
+            <div id="current-weather">
+                <h2 id="city-name">Ciudad</h2>
+                <div class="weather-main">
+                    <img id="weather-icon" src="" alt="Icono del clima">
+                    <div class="temp">
+                        <span id="temperature">0</span>°C
+                        <button id="unit-toggle">Cambiar a °F</button>
+                    </div>
+                </div>
+                <p id="description">Descripción</p>
+                <div class="details">
+                    <p>Humedad: <span id="humidity">0</span>%</p>
+                    <p>Viento: <span id="wind-speed">0</span> km/h</p>
+                    <p>Sensación térmica: <span id="feels-like">0</span>°C</p>
+                    <p>Presión: <span id="pressure">0</span> hPa</p>
+                    <p>Visibilidad: <span id="visibility">0</span> km</p>
+                </div>
+            </div>
+            <div id="forecast">
+                <h3>Pronóstico de 5 días</h3>
+                <div id="forecast-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
